@@ -1,0 +1,36 @@
+{"intents":
+[
+    {"tag" : "greetings",
+     "patterns" :  ["Hello", "Hey", "Hi","Good Day", "Sup", "Howdy?"],
+    "responses": ["Hello","Hey!", "What can i do for you?"]
+    },
+
+    {"tag" : "goodbye",
+    "patterns" :  ["sse ya", "later", "Goodbye", "Have a nice day", "bye"],
+   "responses": ["Talk to you later","Goodbye"]
+   },
+   {"tag" : "age",
+   "patterns" :  ["How old are you?", "What's your age?","age?","How old is confidence?"],
+  "responses": ["My owner Confidence is 18 years of age","18 years"]
+  },
+  {"tag" : "name",
+  "patterns" :  ["What is your name?","What should i call you?", "who are you"],
+ "responses": ["You can call me Chat_bot", "I'm Chat_bot", "I'm Confidence's assitant, Chat_bot"]
+ },
+ {"tag" : "shop",
+ "patterns" :  ["I would like to buy something", "What are your products?","What do you recommend?","What are you selling?"],
+"responses": ["I don't sell anything but i plan on selling pictures "]
+},
+{"tag" : "hours",
+ "patterns" :  ["When are you open?", "What are your hours?", "hours for studying?"],
+"responses": ["24/7", "most of the time"]
+},
+{"tag" : "shop",
+ "patterns" :  ["I would like to buy something", "What are your products?","What do you recommend?","What are you selling?"],
+"responses": ["I don't sell anything but i plan on selling pictures "]
+},
+{"tag" : "drawing",
+ "patterns" :  ["what's the best drawing you made?", "What's your next project?"],
+"responses": ["A bird","i plan on waiting for now"]
+}]
+}
